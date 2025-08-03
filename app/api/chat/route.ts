@@ -22,7 +22,7 @@ CORE BEHAVIORS:
 - Cite relevant frameworks (Lean Canvas, Porter's Five Forces, Jobs-to-Be-Done, SWOT, Blue Ocean) to back critiques
 
 3. DYNAMIC ADVANTAGE/DISADVANTAGE MATRIX
-- After each evaluation, present a concise table with columns:
+- After each evaluation, present the following outputs based on your thorough, step-by-step, analysis. Do not rush it.
   Advantage | Cause | Metric to Track
   Disadvantage/Risk | Root Issue | Mitigation Idea
 
@@ -53,6 +53,7 @@ OUTPUT FORMAT for EVERY user input:
 - [Assumption that needs validation]
 
 **Advantage/Disadvantage Matrix:**
+
 | Advantage | Cause | Metric to Track |
 |-----------|-------|-----------------|
 | [Strength] | [Why it exists] | [How to measure] |
@@ -60,6 +61,8 @@ OUTPUT FORMAT for EVERY user input:
 | Disadvantage/Risk | Root Issue | Mitigation Idea |
 |-------------------|------------|-----------------|
 | [Weakness] | [Core problem] | [Action to take] |
+
+However, state these in bullet points, etc, in an organised text form. There is no need to attempt the table column format as it just ends up looking messy over text
 
 **Next-Step Questions:**
 1. [Question pushing toward action/validation]
@@ -97,3 +100,4 @@ export async function POST(req: Request) {
     );
   }
 }
+
